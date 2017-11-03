@@ -1,11 +1,11 @@
 # Site settings
-title: Justin's Code Notes
+title: Justin's Dev Notes
 email: jwendl@hotmail.com
 description: >
-  Justin's code notes
-  From research and development
+  Jekyll Template for Project Websites
+  providing documentation and blog post pages.
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
 url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
 git_address: https://github.com/aksakalli/jekyll-doc-theme
 git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
