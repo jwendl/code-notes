@@ -4,15 +4,17 @@
 
 - title: Azure
   docs:
-  - acs
+  - azure/acr
+  - azure/acs
+  - azure/network
 
 - title: Windows Linux
   docs:
-  - wslinstall
+  - wsl/install
 
 - title: .NET Core
   docs:
-  - aspnetcore
+  - dotnetcore/aspnetcore
 
 - title: Examples
   docs:

@@ -1,9 +1,9 @@
 ---
-title: Windows Subsystem for Linux
-permalink: /docs/wslinstall/
+title: My Install Scripts for WSL
+permalink: /docs/wsl/install/
 ---
 
-Here are some example scripts that I use to setup my WSL environment.
+Here are some example scripts that I use to setup my Windows Subsystem for Linux (WSL) environment.
 
 ## Azure Command Line
 ``` bash

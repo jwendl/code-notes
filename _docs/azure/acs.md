@@ -1,6 +1,6 @@
 ---
 title: Azure Container Service
-permalink: /docs/acs/
+permalink: /docs/azure/acs/
 ---
 
 ## Creating with Azure CLI
