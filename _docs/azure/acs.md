@@ -19,5 +19,6 @@ kubectl run nginx --image nginx
 kubectl get nodesca
 kubectl get pods
 kubectl expose deployments nginx --port=80 --type=LoadBalancer
-watch 'kubectl get svc'
+watch "kubectl get svc"
 ```
+

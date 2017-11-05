@@ -6,6 +6,14 @@
   docs:
   - acs
 
+- title: Windows Linux
+  docs:
+  - wslinstall
+
+- title: .NET Core
+  docs:
+  - aspnetcore
+
 - title: Examples
   docs:
   - cheatsheet
