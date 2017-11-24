@@ -1,6 +1,7 @@
 ---
 title: Azure Container Registry
-permalink: /docs/azure/acr/
+category: Azure
+order: 3
 ---
 
 ## Create a new Registry

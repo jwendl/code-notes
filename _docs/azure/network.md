@@ -1,6 +1,7 @@
 ---
 title: Azure Networking
-permalink: /docs/azure/network/
+category: Azure
+order: 1
 ---
 
 ## Setup with DNS Service

@@ -1,9 +1,12 @@
 ---
 title: Using Azure AD from Bash
-permalink: /docs/wsl/azuread/
+category: Windows Subsystem for Linux
+order: 2
 ---
 
-Navigate to [https://login.microsoftonline.com/[subscription-id]/oauth2/authorize?client_id=[client-id]&response_type=code](https://login.microsoftonline.com/1e1a5e3a-f0ea-45c9-9d80-d88e4d8ed378/oauth2/authorize?client_id=310ba294-9799-4a17-855c-4a000d5e70dc&response_type=code) (replacing subscription-id and client-id)
+Navigate to [https://login.microsoftonline.com/[subscription-id]/oauth2/authorize?client_id=[client-id]&response_type=code](https://login.microsoftonline.com/1e1a5e3a-f0ea-45c9-9d80-d88e4d8ed378/oauth2/authorize?client_id=310ba294-9799-4a17-855c-4a000d5e70dc&response_type=code)
+
+> Replacing [subscription-id] and [client-id]
 
 Get code from response like:
 https://localhost:44341/signin-oidc?code=AQABAAIAAAA9kTklhVy7SJTGAzR-p1BcQn__M38KdNCdhagAfbE0rikab8J-N_W9KSXQJWORm9ggiQVDauGkuHlULHC2glmfs27RTJeyhfXvfnDbB9yY43KwaGdBpcx-PCfaP7V9SfrNA_RfTwy14RetENLD98uQUxEIv6cb7MvjHzHsHN4vmd3Ie3h43Kgu6ghDW5jxSDS9J27nMl2xN31vj529EUeyr0EeBG9uSd4v4F1HZ3sszUsF00sICFPjuVTAA1yDFyVS5xfg2YgONa1MT2jHfLZqI2LxTlkzc6cFzqks496n4WomQleSxoR6Qt7TiulpVfV4_2Dm5UfMDd7lMGNmfn_qTq1EcSvWXnnP9_U5r_WK6PSIn_ztru46cDTk0qORjT7i4fg8OGj1BG2bkR-jhm3Oy_mDaIowLoCqmobMEbA6LMMLjy3gkkBPkqIF7VlIjzVadazcqmL2FbwP5O0N7AuA9TFDRF6WoqnpgHonALGpiFIyESyFj4yil5TfmstrB2Y8GPhqOInLyA-QtmGMgHxv2_wUXilX6hjP2LkBPvFmyau3DRijTHD0PPQQDpfMmsOU9ZQKNc2x2erGBLnm49Z0h9kZDIbqyTR1c7es_ziOosOeGpmjGtXV58fWjiHTvbPtNnhSJnZrlC6ChMoxi_1b-5Ea4Ax49-43xSKoTw2VlrRxApy65-EbK8pgM-XpKKUgAA&session_state=56151aae-8194-4775-8300-627144292866

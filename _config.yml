@@ -1,54 +1,88 @@
-# Site settings
-title: Justin's Dev Notes
-email: jwendl@hotmail.com
-description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+# ----
+# Site
 
-baseurl: "/code-notes" # the subpath of your site, e.g. /blog/
-url: https://www.jwendl.net/code-notes # the base hostname & protocol for your site
-git_address: https://github.com/jwendl/code-notes
+title: Justin's Developer Notes
+url: "https://www.jwendl.net"
+baseurl:
+google_analytics_key:
+show_full_navigation: true
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 git_edit_address: https://github.com/jwendl/code-notes/edit/docs-branch
+logo: /siteicon.png
+description: Justin's Developer Notes
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
+social:
+  name: Justin's Developer Notes
+  links:
+    - https://github.com/jwendl/code-notes
 
-# theme options from https://bootswatch.com/
-# comment out this to use default Bootstrap
-bootwatch: paper
-
-# Build settings
+# -----
+# Build
 markdown: kramdown
 highlighter: rouge
+permalink: pretty
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+  input:            GFM
+  syntax_highlighter: 
+                    rouge
+
 gems:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
 
 exclude:
-  - .idea/
-  - .gitignore
+  - Gemfile
+  - Gemfile.lock
   - README.md
-timezone: Europe/Berlin
-defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-    sectionid: blog
-
-- scope:
-    path: _docs
-    type: docs
-  values:
-    layout: docs
-    sectionid: docs
-    seo:
-      type: "WebPage"
+  - LICENCE
 
 collections:
   docs:
-    permalink: /:collection/:path/
+    title: Documentation
+    permalink: /:path/
     output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      seo:
+        type: Article
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+      _options:
+        content:
+          width: 800
+          height: 2000
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      _comments:
+        type: Marks the impact of this release
+
+# -----------
+# CloudCannon
+
+types:
+  - minor
+  - major

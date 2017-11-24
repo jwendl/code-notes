@@ -1,6 +1,7 @@
 ---
 title: My Install Scripts for WSL
-permalink: /docs/wsl/install/
+category: Windows Subsystem for Linux
+order: 1
 ---
 
 Here are some example scripts that I use to setup my Windows Subsystem for Linux (WSL) environment.

@@ -1,6 +1,7 @@
 ---
 title: Azure Container Service
-permalink: /docs/azure/acs/
+category: Azure
+order: 2
 ---
 
 ## Creating with Azure CLI

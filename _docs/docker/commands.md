@@ -1,6 +1,7 @@
 ---
 title: Docker Commands
-permalink: /docs/docker/dockercli/
+category: Docker
+order: 1
 ---
 
 ## Find All Containers
@@ -33,8 +34,7 @@ docker kill `docker ps -aq`
 docker rmi `docker images -aq`
 ```
 
-## Reference Specific Image Id
-We can use the partial unique image id (8b) or a longer version copied from output like (4f803ffceb53) or the long name like (4f803ffceb5301bd94cfa2b9f931a36493effd50e9d14a53586ffb27a48bb580)
+> We can use the partial unique image id (4f) or a longer version copied from output like (4f803ffceb53) or the long name like (4f803ffceb5301bd94cfa2b9f931a36493effd50e9d14a53586ffb27a48bb580)
 
 ## Building .NET Core App and Uploading to ACR
 ``` bash

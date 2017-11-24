@@ -1,6 +1,7 @@
 ---
 title: ASP.NET Core
-permalink: /docs/dotnetcore/aspnetcore/
+category: .NET Core
+order: 1
 ---
 
 ## Deploy ASP.NET Core to Azure Container Registry
