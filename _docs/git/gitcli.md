@@ -1,6 +1,6 @@
 ---
 title: Git Command Line
-category: git
+category: Git
 order: 1
 ---
 
