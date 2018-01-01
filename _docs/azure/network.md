@@ -5,6 +5,7 @@ order: 1
 ---
 
 ## Setup with DNS Service
+
 ``` bash
 az network dns zone create --resource-group DraftSandbox --name jwendl.net
 az network dns zone create --resource-group DraftSandbox --name draft.jwendl.net

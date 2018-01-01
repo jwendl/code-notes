@@ -5,6 +5,7 @@ order: 3
 ---
 
 ## Create a new Registry
+
 ``` bash
 containername="example"
 subscriptionid=`az account show | jq -r '.id'`

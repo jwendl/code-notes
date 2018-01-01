@@ -5,6 +5,7 @@ order: 1
 ---
 
 ## Deploy ASP.NET Core to Azure Container Registry
+
 ``` bash
 docker login mycr.azurecr.io -u jwendl -p P@SSW0rd!
 dotnet publish -c Release -o out

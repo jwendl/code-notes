@@ -5,6 +5,7 @@ order: 1
 ---
 
 ## Create a Patch using a Diff between HEAD and local
+
 ``` bash
 git diff --patch --ignore-space-change --ignore-all-space
 ```

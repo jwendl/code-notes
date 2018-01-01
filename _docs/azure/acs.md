@@ -5,6 +5,7 @@ order: 2
 ---
 
 ## Creating with Azure CLI
+
 ``` bash
 az group create --name ContainerSandbox --location centralus
 az acs create --orchestrator-type=kubernetes --resource-group ContainerSandbox --name=JwContainerSandbox --dns-prefix=jwcontainersandbox --generate-ssh-keys
@@ -12,6 +13,7 @@ sudo az acs kubernetes install-cli
 ```
 
 ## Kube CTL
+
 ``` bash
 kubectl
 az acs kubernetes get-credentials --resource-group ContainerSandbox --name JwContainerSandbox
