@@ -100,3 +100,11 @@ unzip terraform.zip
 chmod 700 terraform
 sudo mv terraform /usr/local/bin/terraform
 ```
+
+## Set Terminal Colors
+> Go to [GitHub Repo](https://github.com/Microsoft/Console/tree/master/tools/ColorTool) and run through steps
+
+``` cmd
+colortool solarized_dark
+colortool -b solarized_dark
+```
