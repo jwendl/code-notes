@@ -3,6 +3,7 @@ title: Git Command Line
 category: Git
 order: 1
 ---
+# Git Command Line
 
 ## Create a Patch using a Diff between HEAD and local
 

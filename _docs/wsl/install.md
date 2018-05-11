@@ -3,6 +3,7 @@ title: My Install Scripts for WSL
 category: Windows Subsystem for Linux
 order: 1
 ---
+# My Install Scripts for WSL
 
 Here are some example scripts that I use to setup my Windows Subsystem for Linux (WSL) environment.
 
@@ -11,7 +12,7 @@ Here are some example scripts that I use to setup my Windows Subsystem for Linux
 ``` bash
 echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ wheezy main" | sudo tee /etc/apt/sources.list.d/azure-cli.list
 sudo apt-get update
-sudo apt-get upgrade 
+sudo apt-get upgrade
 sudo apt-key adv --keyserver packages.microsoft.com --recv-keys 417A0893
 sudo apt-get install apt-transport-https
 sudo apt-get update
@@ -102,6 +103,7 @@ sudo mv terraform /usr/local/bin/terraform
 ```
 
 ## Set Terminal Colors
+
 > Go to [GitHub Repo](https://github.com/Microsoft/Console/tree/master/tools/ColorTool) and run through steps
 
 ``` cmd

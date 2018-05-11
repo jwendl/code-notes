@@ -1,8 +1,9 @@
 ---
-title: Run ZSH
+title: Using ZSH
 category: Windows Subsystem for Linux
 order: 3
 ---
+# Using ZSH
 
 ## Azure Command Line
 
@@ -19,10 +20,11 @@ vi dircolors.256dark
 ```
 
 > Be sure to change the theme to "agnostic" inside the ~/.zshrc file
-
+>
 > Modify ~/.zshrc to add eval `dircolors ~/colors/dircolors-solarized/dircolors.256dark`
-
+>
 > Replace EXEC 00;38;5;64 with EXEC 00;38;5;244
-
+>
 > Install the proper .ttf under DejaVuSansMono by double clicking and selecting install
+>
 > Then add it to the terminal window fonts (properties -> Edit)

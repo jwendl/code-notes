@@ -3,6 +3,7 @@ title: Azure Container Registry
 category: Azure
 order: 3
 ---
+# Azure Container Registry
 
 ## Create a new Registry
 

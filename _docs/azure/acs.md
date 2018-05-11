@@ -3,6 +3,7 @@ title: Azure Container Service
 category: Azure
 order: 2
 ---
+# Azure Container Service
 
 ## Creating with Azure CLI
 
@@ -24,4 +25,3 @@ kubectl get pods
 kubectl expose deployments nginx --port=80 --type=LoadBalancer
 watch "kubectl get svc"
 ```
-

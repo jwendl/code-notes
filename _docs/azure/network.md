@@ -3,6 +3,7 @@ title: Azure Networking
 category: Azure
 order: 1
 ---
+# Azure Networking
 
 ## Setup with DNS Service
 

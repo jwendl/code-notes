@@ -3,6 +3,7 @@ title: Azure Storage
 category: Azure
 order: 4
 ---
+# Azure Storage
 
 ## List all Blobs from Azure Storage via Azure CLI
 

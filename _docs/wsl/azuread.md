@@ -3,6 +3,7 @@ title: Using Azure AD from Bash
 category: Windows Subsystem for Linux
 order: 2
 ---
+# Using Azure AD from Bash
 
 Navigate to [https://login.microsoftonline.com/[subscription-id]/oauth2/authorize?client_id=[client-id]&response_type=code](https://login.microsoftonline.com/1e1a5e3a-f0ea-45c9-9d80-d88e4d8ed378/oauth2/authorize?client_id=310ba294-9799-4a17-855c-4a000d5e70dc&response_type=code)
 
