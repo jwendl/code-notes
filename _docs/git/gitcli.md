@@ -12,3 +12,11 @@ git diff --patch --ignore-space-change --ignore-all-space
 ```
 
 > This is good when we want to create a file that we can send to someone else to see the changes that we did to our local repository between our un committed changes and what is in the repository.
+
+## Ignoring Changes to a File
+
+``` bash
+git update-index --assume-unchanged <file>
+```
+
+> This works if you are trying to keep a settings.json file around.
